@@ -1,0 +1,62 @@
+/* Custom Dark Green Header Styling */
+.is-dark-green .header {
+    background-color: #1b5e20 !important;
+    border-bottom: 0px;
+}
+
+.is-dark-green .header .logo {
+    border-color: transparent;
+}
+
+.is-dark-green .header .logo.logo-dark {
+    display: none;
+}
+
+.is-dark-green .header .logo.logo-white {
+    display: block;
+}
+
+.is-dark-green .header .nav-left li > a,
+.is-dark-green .header .nav-right li > a,
+.is-dark-green .header .nav-left li nz-dropdown > a,
+.is-dark-green .header .nav-right li nz-dropdown > a {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.is-dark-green .header .nav-left li > a:hover,
+.is-dark-green .header .nav-left li > a:focus,
+.is-dark-green .header .nav-left li > a:active,
+.is-dark-green .header .nav-right li > a:hover,
+.is-dark-green .header .nav-right li > a:focus,
+.is-dark-green .header .nav-right li > a:active,
+.is-dark-green .header .nav-left li nz-dropdown > a:hover,
+.is-dark-green .header .nav-left li nz-dropdown > a:focus,
+.is-dark-green .header .nav-left li nz-dropdown > a:active,
+.is-dark-green .header .nav-right li nz-dropdown > a:hover,
+.is-dark-green .header .nav-right li nz-dropdown > a:focus,
+.is-dark-green .header .nav-right li nz-dropdown > a:active {
+    color: #fff;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.is-dark-green .header .nav-left li > a .ant-badge,
+.is-dark-green .header .nav-right li > a .ant-badge,
+.is-dark-green .header .nav-left li nz-dropdown > a .ant-badge,
+.is-dark-green .header .nav-right li nz-dropdown > a .ant-badge {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.is-dark-green .header .nav-left li > a:hover .ant-badge,
+.is-dark-green .header .nav-left li > a:focus .ant-badge,
+.is-dark-green .header .nav-left li > a:active .ant-badge,
+.is-dark-green .header .nav-right li > a:hover .ant-badge,
+.is-dark-green .header .nav-right li > a:focus .ant-badge,
+.is-dark-green .header .nav-right li > a:active .ant-badge,
+.is-dark-green .header .nav-left li nz-dropdown > a:hover .ant-badge,
+.is-dark-green .header .nav-left li nz-dropdown > a:focus .ant-badge,
+.is-dark-green .header .nav-left li nz-dropdown > a:active .ant-badge,
+.is-dark-green .header .nav-right li nz-dropdown > a:hover .ant-badge,
+.is-dark-green .header .nav-right li nz-dropdown > a:focus .ant-badge,
+.is-dark-green .header .nav-right li nz-dropdown > a:active .ant-badge {
+    color: #fff;
+}
